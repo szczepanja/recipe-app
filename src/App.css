@@ -10,7 +10,7 @@
   background-image: linear-gradient(-20deg, #dcb0ed 0%, #99c99c 100%);
 }
 .search-form {
-  min-height: 10vh;
+  min-height: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +35,9 @@
   border: none;
   outline: none;
   cursor: pointer;
-  color: rgb(92, 92, 92);
+  color: #eee;
+  text-transform: uppercase;
+  letter-spacing: 3px;
   background-color: #d498ec;
   padding: 10px 20px;
 }

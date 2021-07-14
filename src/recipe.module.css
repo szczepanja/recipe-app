@@ -12,10 +12,18 @@
 .title {
   font-size: 32px;
   letter-spacing: 2px;
+  padding: 20px;
 }
 
+.list {
+  font-size: 13px;
+  letter-spacing: 1px;
+  text-transform: lowercase;
+  align-items: center;
+}
 .image {
   width: 150px;
   height: 150px;
   border-radius: 40%;
+  padding: 10px;
 }
