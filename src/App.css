@@ -1,38 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
+}
+
 .App {
+  min-height: 100vh;
+  background-image: linear-gradient(-20deg, #dcb0ed 0%, #99c99c 100%);
+}
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 40%;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  margin: 10px;
+  font-size: 14px;
+  color: rgb(92, 92, 92);
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search-button {
+  min-height: 6vh;
+  min-width: 10vh;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: rgb(92, 92, 92);
+  background-color: #d498ec;
+  padding: 10px 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+li {
+  list-style-type: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.recipes {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
